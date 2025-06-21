@@ -20,6 +20,7 @@ import filtericon from "/public/IMG/setting.svg";
 import addicon from "/public/IMG/add-square.svg";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Template() {
   const [modalState, setModalState] = useState(false);
@@ -156,9 +157,9 @@ export default function Template() {
             </button>
           </div>
           <div className={Style.icon}>
-            <a href="/">
+            <Link href="/">
               <Image src={addicon} alt="card" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -170,9 +171,9 @@ export default function Template() {
             return (
               <div key={item.id} className={Style.templateCard}>
                 <div className={`${Style.templateCard} ${Style.img}`}>
-                  <a href="/">
+                  <Link href="/">
                     <Image src={item.url} alt="card" width={278} height={200} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             );

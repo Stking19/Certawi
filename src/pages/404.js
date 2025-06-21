@@ -11,8 +11,8 @@ const Error = () => {
     <div className={Styles.errorPage}>
       <h1>We lost this page</h1>
       <p>
-        We couldn't find what you are looking for. Let's find a better place for
-        you to go.
+        We couldn&rsquo;t find what you are looking for. Let&rsquo;s find
+        a better place for you to go.
       </p>
       <div className={Styles.errorButtons}>
         <Link className={Styles.link} href="/">
