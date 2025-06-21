@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+// body {
+//     max-width: $containerWidth;
+//     color: #222222;
+// }
+
+.flex {
+    display: flex;
+}
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+}
+
+.workSans {
+    font-family: 'Work sans';
+}
+
+.sora {
+    font-family: 'Sora';
+}
+
+.lineHeight {
+    line-height: 24px;
+}
+
+.emphasized {
+    color: #19A68E;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.itemsCenter {
+    align-items: center;
+}
+
+.center {
+    width: 90%;
+    margin: auto;
+}
+
+.testimonialHeader {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 120px 0 16px 0;
+    text-align: center;
+}
+
+.testimonialCaption {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.testimonialContainer {
+    width: 343px;
+    height: 329px;
+    border: 1px solid rgba(73, 73, 73, 0.4);
+    border-radius: 24px;
+    padding: 40px 25px 0 25px;
+}
+
+.testimonialBottom {
+    padding-bottom: 120px !important;
+    background-color: white !important;
+}
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+    .testimonials {
+        overflow-x: scroll;
+    }
+}
+
+@media screen  and (max-width: 480px) {
+    .testimonials {
+        flex-direction: column;
+        width: 70% !important;
+        margin: auto !important;
+    }
+    .testimonialHeader {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .testimonialCaption {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .testimonialBottom {
+        margin-bottom: 52px !important;
+    }
+}

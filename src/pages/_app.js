@@ -1,5 +1,17 @@
+import Header from "@/components/header/Header";
+import Layout from "@/components/layout";
 import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function App({ Component, pageProps, router }) {
+  const is404 = router.pathname === "/404";
+  return is404 ? (
+    <>
+      <Header />
+      <Component {...pageProps} />
+    </>
+  ) : (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
