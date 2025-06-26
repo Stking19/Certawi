@@ -49,14 +49,14 @@ export default function Hero() {
         </div>
         <div
           className={`${Styles.flex} ${Styles.itemsCenter}`}
-          style={{ width: "325px", gap: "10px" }}
+          style={{ width: "325px", gap: "10px", color: "black" }}
         >
           <Image src={tick} alt="tick" className={Styles.tick}></Image>
           <p>Edit template to your preferred look and feel.</p>
         </div>
         <div
           className={`${Styles.flex} ${Styles.itemsCenter}`}
-          style={{ width: "294px", gap: "10px" }}
+          style={{ width: "294px", gap: "10px", color: "black" }}
         >
           <Image src={tick} alt="tick" className={Styles.tick}></Image>
           <p>Create and Send single and bulk certificate.</p>

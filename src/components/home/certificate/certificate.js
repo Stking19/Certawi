@@ -11,7 +11,7 @@ export default function Certificate() {
 
   return (
     <>
-      <p className={`${Styles.sora} ${Styles.header}`} color="black">
+      <p className={`${Styles.sora} ${Styles.header}`} style={{color: "black"}}>
         Create your <span className={Styles.emphasized}>certificate </span>
         with <span className={Styles.emphasized}>ease</span>
       </p>
@@ -135,7 +135,7 @@ export default function Certificate() {
             <Image src={demo_3} alt="certificate-3" className={Styles.imageCert}/>
           </div>
 
-          <form action="" className={`${Styles.certForm} ${Styles.textLeft} ${Styles.workSans}`}>
+          <form action="" className={`${Styles.certForm} ${Styles.textLeft} ${Styles.workSans}`} style={{color: "black"}}>
             <label className={Styles.labell} for="img">Logo</label>
             <input
               type="file"
