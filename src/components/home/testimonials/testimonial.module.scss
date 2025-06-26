@@ -88,7 +88,8 @@
 @media screen  and (max-width: 480px) {
     .testimonials {
         flex-direction: column;
-        width: 70% !important;
+        gap: 20px;
+        width: 87% !important;
         margin: auto !important;
     }
     .testimonialHeader {

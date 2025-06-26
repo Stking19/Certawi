@@ -125,10 +125,19 @@
     padding: 10.5px 16px;
     width: 129px;
     cursor: pointer;
+    display: flex;
+    margin-bottom: 40px;
 }
 
 .label {
     margin: 48px 0 16px 0;
+}
+
+.labell {
+    height: 50px;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .submitBtn {
@@ -173,8 +182,13 @@
     }
     .certImg {
         flex-direction: column;
+        gap: 20px;
         width: 50% !important;
         margin: auto !important;
+    }
+    .imageCert {
+        width: 200px;
+        height: 130px;
     }
     .certForm {
         width: 100%;

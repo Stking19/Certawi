@@ -71,16 +71,16 @@ export default function Certificate() {
           <div
             className={`${Styles.flex} ${Styles.center} ${Styles.justifyBetween} ${Styles.gap} ${Styles.certImg}`}
           >
-            <Image src={demo} alt="certificate-1" />
-            <Image src={demo_2} alt="certificate-2" />
-            <Image src={demo_3} alt="certificate-3" />
+            <Image src={demo} alt="certificate-1" className={Styles.imageCert}/>
+            <Image src={demo_2} alt="certificate-2" className={Styles.imageCert}/>
+            <Image src={demo_3} alt="certificate-3" className={Styles.imageCert}/>
           </div>
 
           <form
             action=""
             className={`${Styles.certForm} ${Styles.textLeft} ${Styles.workSans}`}
           >
-            <label className={Styles.label} for="img">Logo</label>
+            <label className={Styles.labell} for="img">Logo</label>
             <input
               type="file"
               name="uploadfile"
@@ -129,13 +129,13 @@ export default function Certificate() {
           <div
             className={`${Styles.flex} ${Styles.center} ${Styles.justifyBetween} ${Styles.gap} ${Styles.certImg}`}
           >
-            <Image src={demo} alt="certificate-1" />
-            <Image src={demo_2} alt="certificate-2" />
-            <Image src={demo_3} alt="certificate-3" />
+            <Image src={demo} alt="certificate-1" className={Styles.imageCert}/>
+            <Image src={demo_2} alt="certificate-2" className={Styles.imageCert}/>
+            <Image src={demo_3} alt="certificate-3" className={Styles.imageCert}/>
           </div>
 
           <form action="" className={`${Styles.certForm} ${Styles.textLeft} ${Styles.workSans}`}>
-            <label for="img">Logo</label>
+            <label className={Styles.labell} for="img">Logo</label>
             <input
               type="file"
               name="uploadfile"

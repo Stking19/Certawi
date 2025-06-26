@@ -1,25 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Work+Sans:wght@400;500&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Work+Sans:wght@400;500&display=swap");
+
 
 // h2,
 // h3,
 // p {
 //   margin: 0;
-//   font-family: "Work Sans", sans-serif;
+  
 // }
-.navBar {
-  display: flex;
+.navbar {
   // margin-bottom: 4rem;
-  // text-align: start;
+  text-align: start;
   position: relative;
   background: #fff;
   z-index: 999;
-  padding: 10px 20px;
+  font-family: "Work Sans", sans-serif;
 }
 .container {
   margin: 0 auto;
   width: 90%;
 }
-.navBar {
+.navHeaderContainer {
   box-shadow: 0px 0.5px 5px rgba(34, 34, 34, 0.25);
 }
 .navHeader {
@@ -53,13 +53,6 @@
     }
   }
 }
-.navLinks {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  margin-top: 5px;
-}
-
 .btn {
   background-color: #19a68e;
   color: #fff;
@@ -71,25 +64,21 @@
 }
 
 .linksContainer {
-  height: 100%;
-  width: 100%;
-  display: flex;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
   transition: all 0.5s ease-in-out;
 
   .links {
     display: flex;
-    height: 30px;
-    width: 88%;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 5px;
-    border-right: 1px solid black;
-    // p {
-    //   padding: 10px 0;
-    //   border-bottom: 1px solid #222;
-    //   font-size: 1rem;
-    //   font-weight: 400;
-    // }
+    flex-direction: column;
+    margin-bottom: 10px;
+    p {
+      padding: 10px 0;
+      border-bottom: 1px solid #222;
+      font-size: 1rem;
+      font-weight: 400;
+    }
     p:first-child {
       font-size: 20px;
       font-weight: 600;
@@ -98,23 +87,19 @@
       text-decoration: none;
       color: #222;
       text-transform: capitalize;
-      transition: all 250ms ease-in-out;
       &:hover{
         color:#19a68e;
       }
     }
   }
 }
-.show-links {
+.showLinks {
   height: 283px;
 }
 .buttonContainer {
-  // padding-bottom: 10px;
+  padding-bottom: 10px;
   .btn {
-    width: 50%;
-    height: 50px;
-    cursor: pointer;
-    font-size: 17px;
+    width: 100%;
   }
 }
 
@@ -127,7 +112,7 @@
   .buttonContainer {
     display: none;
   }
-  .show-links {
+  .showLinks {
     height: 240px;
   }
 }

@@ -146,8 +146,14 @@
             height: 100%;
         }
     }
+    .textLeft {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .bulkButton {
-        margin: 40px 0 24px 0;
+        margin-left: 40px;
         width: 80%;
     }
 }

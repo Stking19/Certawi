@@ -12,13 +12,12 @@ export default function Hero() {
     <>
       <div
         className={`${Styles.flex} ${Styles.center} ${Styles.justifyBetween} ${Styles.hero}`}
-        style={{paddingTop: "11.8%"}}
       >
         <div className={Styles.heroLeft}>
           <p className={`${Styles.heroText} ${Styles.sora}`}>
             Create and download your{" "}
             <span className={Styles.emphasized}>professional certificates</span>{" "}
-            for
+            for<br />
             <span className={Styles.emphasized}> free</span>
           </p>
           <p
@@ -36,6 +35,7 @@ export default function Hero() {
 
       <div
         className={`${Styles.lineHeight} ${Styles.flex} ${Styles.justifyBetween} ${Styles.center} ${Styles.textLeft} ${Styles.workSans} ${Styles.perks}`}
+        style={{gap: "20px"}}
       >
         <div
           className={`${Styles.flex} ${Styles.itemsCenter}`}
@@ -43,7 +43,7 @@ export default function Hero() {
         >
           <Image src={tick} alt="tick" className={Styles.tick}></Image>
           <p>
-            No design skill needed. Choose from a variety of stunning templates.
+            No design skill needed. Choose from a variety of<br /> stunning templates.
           </p>
         </div>
         <div
