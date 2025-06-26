@@ -17,7 +17,7 @@ export const FaqItems = ({ faq, onToggle, active }) => {
               <Image src={Question} alt="" width={30} height={50}/>
             </div>
 
-            <h3>{title}</h3>
+            <h3 style={{color: "black"}}>{title}</h3>
           </div>
           <div className={Style.dropdowmIcon}>
             {active ? (
@@ -30,7 +30,7 @@ export const FaqItems = ({ faq, onToggle, active }) => {
         {active ? (
           <ul className={Style.faqAnswers}>
             {body.map((item, index) => {
-              return <li key={index}>{item}</li>;
+              return <li key={index} style={{color: "black"}}>{item}</li>;
             })}
           </ul>
         ) : null}

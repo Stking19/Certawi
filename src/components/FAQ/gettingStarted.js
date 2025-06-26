@@ -17,7 +17,7 @@ export const GettingStarted = ({ header }) => {
   return (
     <>
       <section className={Style.faqContainer}>
-        <h2>{header}</h2>
+        <h2 style={{color: "black"}}>{header}</h2>
 
         {GettingStartedItems.map((faq, index) => {
           return (

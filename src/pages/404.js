@@ -9,8 +9,8 @@ const Error = () => {
   const router = useRouter();
   return (
     <div className={Styles.errorPage}>
-      <h1>We lost this page</h1>
-      <p>
+      <h1 style={{color: "black"}}>We lost this page</h1>
+      <p style={{color: "black"}}>
         We couldn&rsquo;t find what you are looking for. Let&rsquo;s find
         a better place for you to go.
       </p>
