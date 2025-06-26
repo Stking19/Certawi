@@ -14,7 +14,7 @@ export default function Hero() {
         className={`${Styles.flex} ${Styles.center} ${Styles.justifyBetween} ${Styles.hero}`}
       >
         <div className={Styles.heroLeft}>
-          <p className={`${Styles.heroText} ${Styles.sora}`}>
+          <p className={`${Styles.heroText} ${Styles.sora}`} style={{color: "black"}}>
             Create and download your{" "}
             <span className={Styles.emphasized}>professional certificates</span>{" "}
             for<br />
