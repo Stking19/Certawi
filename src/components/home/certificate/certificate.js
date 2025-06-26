@@ -11,12 +11,12 @@ export default function Certificate() {
 
   return (
     <>
-      <p className={`${Styles.sora} ${Styles.header}`}>
+      <p className={`${Styles.sora} ${Styles.header}`} color="black">
         Create your <span className={Styles.emphasized}>certificate </span>
         with <span className={Styles.emphasized}>ease</span>
       </p>
 
-      <p style={{ padding: "10px" }} className={Styles.prompt}>
+      <p style={{ padding: "10px", color: "black" }} className={Styles.prompt}>
         Select a template, input values and Create a Certificate right away.
       </p>
 
@@ -79,6 +79,7 @@ export default function Certificate() {
           <form
             action=""
             className={`${Styles.certForm} ${Styles.textLeft} ${Styles.workSans}`}
+            style={{color: "black"}}
           >
             <label className={Styles.labell} for="img">Logo</label>
             <input

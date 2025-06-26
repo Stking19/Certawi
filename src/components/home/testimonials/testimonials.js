@@ -7,8 +7,8 @@ import person_3 from '/public/IMG/person-3.png'
 export default function Testimonials () {
     return (
         <>
-          <p className={`${Styles.sora} ${Styles.testimonialHeader}`}>Testimonials</p>
-          <p className={Styles.testimonialCaption}>What our users have to say about us</p>
+          <p className={`${Styles.sora} ${Styles.testimonialHeader}`} style={{color: "black"}}>Testimonials</p>
+          <p className={Styles.testimonialCaption} style={{color: "black"}}>What our users have to say about us</p>
           <div className={`${Styles.flex} ${Styles.testimonials} ${Styles.center} ${Styles.justifyBetween} ${Styles.gap} ${Styles.testimonialBottom}`}>
             <div className={`${Styles.testimonialContainer} ${Styles.textLeft} ${Styles.sora} ${Styles.test}`}>
               <div className={`${Styles.flex} ${Styles.itemsCenter}`} style={{width: '343px'}}>

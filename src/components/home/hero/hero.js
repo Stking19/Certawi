@@ -22,6 +22,7 @@ export default function Hero() {
           </p>
           <p
             className={`${Styles.workSans} ${Styles.lineHeight} ${Styles.heroCaption}`}
+            style={{color: "black"}}
           >
             Generate professionally designed certificates for your staff,
             students etc.
@@ -39,7 +40,7 @@ export default function Hero() {
       >
         <div
           className={`${Styles.flex} ${Styles.itemsCenter}`}
-          style={{ width: "447px", gap: "10px" }}
+          style={{ width: "447px", gap: "10px", color: "black" }}
         >
           <Image src={tick} alt="tick" className={Styles.tick}></Image>
           <p>
@@ -61,7 +62,7 @@ export default function Hero() {
           <p>Create and Send single and bulk certificate.</p>
         </div>
       </div>
-      <p className={`${Styles.partnerHead} ${Styles.sora}`}>
+      <p className={`${Styles.partnerHead} ${Styles.sora}`} style={{color: "black"}}>
         Trusted by schools and institutions; big and small
       </p>
       <div className={Styles.partners}>

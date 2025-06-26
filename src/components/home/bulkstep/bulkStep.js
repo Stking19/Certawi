@@ -8,10 +8,10 @@ import Image from 'next/image'
 export default function BulkStep () {
     return (
         <div className={Styles.bulk}>
-          <p className={`${Styles.heading} ${Styles.sora}`}>Create bulk Certificates in <span className={Styles.emphasized}>3 easy steps</span></p>
+          <p className={`${Styles.heading} ${Styles.sora}`} style={{color: "black"}}>Create bulk Certificates in <span className={Styles.emphasized}>3 easy steps</span></p>
           <div className={`${Styles.flex} ${Styles.space} ${Styles.center} ${Styles.itemsCenter} ${Styles.wrap}`}>
             <Image src={example} alt={Styles.bulkExample} style={{cursor: 'pointer'}} className={Styles.example}/>
-            <div className={`${Styles.textLeft} ${Styles.workSans}`}>
+            <div className={`${Styles.textLeft} ${Styles.workSans}`} style={{color: "black"}}>
                 <div className={Styles.process}>
                   <Image src={one} alt="one" />
                   <p className={Styles.steps}>Select certificate template</p>
